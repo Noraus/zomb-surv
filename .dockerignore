@@ -1,0 +1,7 @@
+.git
+vendor
+node_modules
+.env
+storage/logs
+public/build
+test-results

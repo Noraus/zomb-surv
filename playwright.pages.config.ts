@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/pages',workers:1,timeout:45000,use:{baseURL:'http://127.0.0.1:4173/zomb-surv/',headless:true,launchOptions:{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE||'/usr/bin/chromium',args:['--no-sandbox']}},webServer:{command:'npx vite preview --config vite.pages.config.ts --host 127.0.0.1 --port 4173',url:'http://127.0.0.1:4173/zomb-surv/',reuseExistingServer:false},reporter:'list'});

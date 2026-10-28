@@ -1,0 +1,1304 @@
+{
+    "state": {
+        "world": {
+            "id": 1,
+            "dataset": "demo",
+            "seed": "donostia-2031",
+            "minutes": 480
+        },
+        "player": {
+            "id": 1,
+            "world_id": 1,
+            "name": "Alex",
+            "lat": 43.3183,
+            "lon": -1.9812,
+            "location_id": null,
+            "health": 100,
+            "energy": 100,
+            "hunger": 15,
+            "thirst": 10,
+            "capacity": 20,
+            "survived": 0
+        },
+        "inventory": [],
+        "weight": 0,
+        "visited": 0
+    },
+    "places": [
+        {
+            "location": {
+                "id": 213,
+                "world_id": 1,
+                "stable_id": "demo:farmland",
+                "name": "Campo agrícola · Sector 15",
+                "category": "farmland",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:farmland",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.326309712515,
+                "lon": -1.9884197852365,
+                "risk": 28,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E610000037F6C44391D0FFBF3ECF4384C4A94540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "wood": 3,
+                "scrap": 2,
+                "electronics": 5,
+                "parts": 2,
+                "textile": 4,
+                "gasoline": 1
+            }
+        },
+        {
+            "location": {
+                "id": 214,
+                "world_id": 1,
+                "stable_id": "demo:residential",
+                "name": "Zona residencial · Sector 16",
+                "category": "residential",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:residential",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.308155084055,
+                "lon": -1.9831281431553,
+                "risk": 45,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E610000049116A93E4BAFFBF620E34A071A74540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "backpack": 2,
+                "clothes": 3,
+                "helmet": 5,
+                "gloves": 6
+            }
+        },
+        {
+            "location": {
+                "id": 215,
+                "world_id": 1,
+                "stable_id": "demo:park",
+                "name": "Parque · Sector 17",
+                "category": "park",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:park",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.325131933057,
+                "lon": -1.9702022448067,
+                "risk": 27,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E61000008135FFC9F285FFBFBBAE55EC9DA94540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "bandage": 1,
+                "wood": 4,
+                "scrap": 4,
+                "electronics": 2,
+                "parts": 3,
+                "textile": 5
+            }
+        },
+        {
+            "location": {
+                "id": 216,
+                "world_id": 1,
+                "stable_id": "demo:water",
+                "name": "Agua natural · Sector 18",
+                "category": "water",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:water",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.318954582623,
+                "lon": -1.9960751998062,
+                "risk": 22,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E61000008363788CECEFFFBF37A3F680D3A84540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "instruments": 1,
+                "wood": 4,
+                "scrap": 6,
+                "electronics": 6,
+                "parts": 6,
+                "textile": 5,
+                "helmet": 1
+            }
+        },
+        {
+            "location": {
+                "id": 199,
+                "world_id": 1,
+                "stable_id": "demo:hospital",
+                "name": "Hospital · Sector 01",
+                "category": "hospital",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:hospital",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.3183,
+                "lon": -1.9782,
+                "risk": 68,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E6100000BB270F0BB5A6FFBF8D28ED0DBEA84540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "bandage": 6,
+                "medkit": 3,
+                "painkiller": 2,
+                "antibiotic": 3,
+                "disinfectant": 6,
+                "instruments": 2,
+                "textile": 1
+            }
+        },
+        {
+            "location": {
+                "id": 200,
+                "world_id": 1,
+                "stable_id": "demo:clinic",
+                "name": "Centro médico · Sector 02",
+                "category": "clinic",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:clinic",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.320024310603,
+                "lon": -1.98392585617,
+                "risk": 31,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E6100000F005DF0929BEFFBF80FB7D8EF6A84540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "bandage": 2,
+                "medkit": 3,
+                "painkiller": 4,
+                "antibiotic": 2,
+                "disinfectant": 3,
+                "instruments": 5,
+                "battery": 1
+            }
+        },
+        {
+            "location": {
+                "id": 201,
+                "world_id": 1,
+                "stable_id": "demo:pharmacy",
+                "name": "Farmacia · Sector 03",
+                "category": "pharmacy",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:pharmacy",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.315211353395,
+                "lon": -1.9808237714856,
+                "risk": 33,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E610000071B85A4474B1FFBF68147BD858A84540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "bandage": 5,
+                "medkit": 5,
+                "painkiller": 4,
+                "antibiotic": 4,
+                "disinfectant": 3,
+                "instruments": 6,
+                "scrap": 1,
+                "helmet": 1,
+                "gloves": 1
+            }
+        },
+        {
+            "location": {
+                "id": 202,
+                "world_id": 1,
+                "stable_id": "demo:supermarket",
+                "name": "Supermercado · Sector 04",
+                "category": "supermarket",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:supermarket",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.32119021323,
+                "lon": -1.9780852791574,
+                "risk": 57,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E61000008AE1EABF3CA6FFBF1ECFCAC21CA94540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "water": 4,
+                "cans": 4,
+                "packed": 3,
+                "fresh": 6,
+                "energy": 2
+            }
+        },
+        {
+            "location": {
+                "id": 203,
+                "world_id": 1,
+                "stable_id": "demo:grocery",
+                "name": "Alimentación · Sector 05",
+                "category": "grocery",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:grocery",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.317584376088,
+                "lon": -1.9869151882447,
+                "risk": 44,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E61000009AFC969467CAFFBF5F82D69AA6A84540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "water": 4,
+                "cans": 2,
+                "packed": 6,
+                "fresh": 5,
+                "energy": 6,
+                "parts": 1,
+                "textile": 1,
+                "diesel": 1
+            }
+        },
+        {
+            "location": {
+                "id": 204,
+                "world_id": 1,
+                "stable_id": "demo:mall",
+                "name": "Centro comercial · Sector 06",
+                "category": "mall",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:mall",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.31573126905,
+                "lon": -1.9757324563784,
+                "risk": 74,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E6100000D5A7DCA2999CFFBF7972D9E169A84540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "energy": 1,
+                "hammer": 1,
+                "toolbox": 1,
+                "backpack": 3,
+                "clothes": 3,
+                "helmet": 2,
+                "gloves": 5
+            }
+        },
+        {
+            "location": {
+                "id": 205,
+                "world_id": 1,
+                "stable_id": "demo:hardware",
+                "name": "Ferretería · Sector 07",
+                "category": "hardware",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:hardware",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.323426156235,
+                "lon": -1.9830289351269,
+                "risk": 47,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E61000009244768C7CBAFFBFA4D93D0766A94540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "antibiotic": 1,
+                "hammer": 5,
+                "screwdriver": 6,
+                "rope": 4,
+                "toolbox": 3,
+                "torch": 3,
+                "battery": 6,
+                "shield": 1
+            }
+        },
+        {
+            "location": {
+                "id": 206,
+                "world_id": 1,
+                "stable_id": "demo:police",
+                "name": "Comisaría · Sector 08",
+                "category": "police",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:police",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.313126724698,
+                "lon": -1.9848883537327,
+                "risk": 68,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E610000041E4574A1AC2FFBF6F0A598914A84540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "water": 1,
+                "diesel": 1,
+                "weapon": 3,
+                "ammo": 3,
+                "shield": 2
+            }
+        },
+        {
+            "location": {
+                "id": 207,
+                "world_id": 1,
+                "stable_id": "demo:fuel",
+                "name": "Gasolinera · Sector 09",
+                "category": "fuel",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:fuel",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.320449057665,
+                "lon": -1.9730993436753,
+                "risk": 62,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E6100000FB820D9ED091FFBF445A877904A94540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "gasoline": 6,
+                "diesel": 6,
+                "oil": 6,
+                "shield": 1
+            }
+        },
+        {
+            "location": {
+                "id": 208,
+                "world_id": 1,
+                "stable_id": "demo:workshop",
+                "name": "Taller · Sector 10",
+                "category": "workshop",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:workshop",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.321007408534,
+                "lon": -1.9897653290714,
+                "risk": 41,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E6100000B138712B14D6FFBFB0B650C516A94540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "packed": 1,
+                "hammer": 6,
+                "screwdriver": 6,
+                "rope": 4,
+                "toolbox": 3,
+                "torch": 6,
+                "battery": 2,
+                "scrap": 1,
+                "gasoline": 1
+            }
+        },
+        {
+            "location": {
+                "id": 209,
+                "world_id": 1,
+                "stable_id": "demo:warehouse",
+                "name": "Almacén · Sector 11",
+                "category": "warehouse",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:warehouse",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.311476688979,
+                "lon": -1.9770489783413,
+                "risk": 42,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E6100000BA0E091CFEA1FFBFCA50D877DEA74540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "wood": 4,
+                "scrap": 3,
+                "electronics": 5,
+                "parts": 4,
+                "textile": 6,
+                "shield": 1
+            }
+        },
+        {
+            "location": {
+                "id": 210,
+                "world_id": 1,
+                "stable_id": "demo:restaurant",
+                "name": "Restauración · Sector 12",
+                "category": "restaurant",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:restaurant",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.325955063379,
+                "lon": -1.977889668801,
+                "risk": 46,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E6100000898B29A36FA5FFBFD69640E5B8A94540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "water": 4,
+                "cans": 5,
+                "packed": 6,
+                "fresh": 2,
+                "energy": 5,
+                "diesel": 1
+            }
+        },
+        {
+            "location": {
+                "id": 211,
+                "world_id": 1,
+                "stable_id": "demo:industry",
+                "name": "Industria · Sector 13",
+                "category": "industry",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:industry",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.314074187529,
+                "lon": -1.9911288178179,
+                "risk": 54,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E6100000976A2AE4A9DBFFBF38FA3D9533A84540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "packed": 1,
+                "wood": 6,
+                "scrap": 3,
+                "electronics": 4,
+                "parts": 5,
+                "textile": 6
+            }
+        },
+        {
+            "location": {
+                "id": 212,
+                "world_id": 1,
+                "stable_id": "demo:forest",
+                "name": "Bosque · Sector 14",
+                "category": "forest",
+                "kind": "poi",
+                "source": "simulated",
+                "rule": "demo:forest",
+                "confidence": "0.00",
+                "osm_type": null,
+                "osm_id": null,
+                "tags": [],
+                "geometry": null,
+                "lat": 43.316223570402,
+                "lon": -1.9694156822282,
+                "risk": 20,
+                "visits": 0,
+                "last_visit": null,
+                "position": "0101000020E6100000F564B604BA82FFBFEC8C92037AA84540",
+                "shape": null,
+                "generation_context": {
+                    "risk": 1,
+                    "size": 1,
+                    "zones": [],
+                    "abundance": 1
+                }
+            },
+            "stock": {
+                "hammer": 1,
+                "wood": 2,
+                "scrap": 4,
+                "electronics": 2,
+                "parts": 4,
+                "textile": 3,
+                "oil": 1,
+                "backpack": 1
+            }
+        }
+    ],
+    "catalog": [
+        {
+            "id": "water",
+            "name": "Agua embotellada",
+            "weight": 0.5,
+            "group": "food",
+            "rarity": "common",
+            "properties": {
+                "food": 0,
+                "water": 25
+            }
+        },
+        {
+            "id": "cans",
+            "name": "Conservas",
+            "weight": 0.4,
+            "group": "food",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 25,
+                "water": 0
+            }
+        },
+        {
+            "id": "packed",
+            "name": "Comida envasada",
+            "weight": 0.3,
+            "group": "food",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 20,
+                "water": 0
+            }
+        },
+        {
+            "id": "fresh",
+            "name": "Alimentos frescos",
+            "weight": 0.4,
+            "group": "food",
+            "rarity": "common",
+            "properties": {
+                "food": 18,
+                "water": 3
+            }
+        },
+        {
+            "id": "energy",
+            "name": "Bebida energética",
+            "weight": 0.3,
+            "group": "food",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 5,
+                "water": 15
+            }
+        },
+        {
+            "id": "bandage",
+            "name": "Vendas",
+            "weight": 0.1,
+            "group": "medical",
+            "rarity": "common",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "medkit",
+            "name": "Botiquín",
+            "weight": 0.8,
+            "group": "medical",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "painkiller",
+            "name": "Analgésicos",
+            "weight": 0.1,
+            "group": "medical",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "antibiotic",
+            "name": "Antibióticos",
+            "weight": 0.1,
+            "group": "medical",
+            "rarity": "common",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "disinfectant",
+            "name": "Desinfectante",
+            "weight": 0.3,
+            "group": "medical",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "instruments",
+            "name": "Instrumental médico",
+            "weight": 1,
+            "group": "medical",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "hammer",
+            "name": "Martillo",
+            "weight": 0.8,
+            "group": "tools",
+            "rarity": "common",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "screwdriver",
+            "name": "Destornillador",
+            "weight": 0.2,
+            "group": "tools",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "rope",
+            "name": "Cuerda",
+            "weight": 0.5,
+            "group": "tools",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "toolbox",
+            "name": "Caja de herramientas",
+            "weight": 2,
+            "group": "tools",
+            "rarity": "common",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "torch",
+            "name": "Linterna",
+            "weight": 0.3,
+            "group": "tools",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "battery",
+            "name": "Baterías",
+            "weight": 0.1,
+            "group": "tools",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "wood",
+            "name": "Madera",
+            "weight": 1,
+            "group": "materials",
+            "rarity": "common",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "scrap",
+            "name": "Chatarra",
+            "weight": 0.6,
+            "group": "materials",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "electronics",
+            "name": "Componentes electrónicos",
+            "weight": 0.2,
+            "group": "materials",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "parts",
+            "name": "Piezas mecánicas",
+            "weight": 0.5,
+            "group": "materials",
+            "rarity": "common",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "textile",
+            "name": "Material textil",
+            "weight": 0.3,
+            "group": "materials",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "gasoline",
+            "name": "Gasolina",
+            "weight": 0.8,
+            "group": "fuel",
+            "rarity": "common",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "diesel",
+            "name": "Diésel",
+            "weight": 0.85,
+            "group": "fuel",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "oil",
+            "name": "Aceite lubricante",
+            "weight": 0.5,
+            "group": "fuel",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "backpack",
+            "name": "Mochila",
+            "weight": 1,
+            "group": "equipment",
+            "rarity": "common",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "clothes",
+            "name": "Ropa protectora",
+            "weight": 1,
+            "group": "equipment",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "helmet",
+            "name": "Casco",
+            "weight": 0.8,
+            "group": "equipment",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "gloves",
+            "name": "Guantes",
+            "weight": 0.2,
+            "group": "equipment",
+            "rarity": "common",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "weapon",
+            "name": "Arma improvisada",
+            "weight": 1.5,
+            "group": "combat",
+            "rarity": "common",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "ammo",
+            "name": "Munición ficticia",
+            "weight": 0.1,
+            "group": "combat",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        {
+            "id": "shield",
+            "name": "Equipamiento defensivo",
+            "weight": 2,
+            "group": "combat",
+            "rarity": "uncommon",
+            "properties": {
+                "food": 0,
+                "water": 0
+            }
+        }
+    ],
+    "categories": [
+        {
+            "id": "hospital",
+            "name": "Hospital",
+            "keys": [
+                "amenity"
+            ],
+            "values": [
+                "hospital"
+            ],
+            "group": "medical",
+            "color": "#ee9494"
+        },
+        {
+            "id": "clinic",
+            "name": "Centro médico",
+            "keys": [
+                "amenity"
+            ],
+            "values": [
+                "clinic",
+                "doctors"
+            ],
+            "group": "medical",
+            "color": "#f0a7aa"
+        },
+        {
+            "id": "pharmacy",
+            "name": "Farmacia",
+            "keys": [
+                "amenity"
+            ],
+            "values": [
+                "pharmacy"
+            ],
+            "group": "medical",
+            "color": "#8ac8b0"
+        },
+        {
+            "id": "supermarket",
+            "name": "Supermercado",
+            "keys": [
+                "shop"
+            ],
+            "values": [
+                "supermarket"
+            ],
+            "group": "food",
+            "color": "#d8cb83"
+        },
+        {
+            "id": "grocery",
+            "name": "Alimentación",
+            "keys": [
+                "shop"
+            ],
+            "values": [
+                "convenience",
+                "greengrocer"
+            ],
+            "group": "food",
+            "color": "#d9ba78"
+        },
+        {
+            "id": "mall",
+            "name": "Centro comercial",
+            "keys": [
+                "shop"
+            ],
+            "values": [
+                "mall"
+            ],
+            "group": "equipment",
+            "color": "#c9ad9b"
+        },
+        {
+            "id": "hardware",
+            "name": "Ferretería",
+            "keys": [
+                "shop"
+            ],
+            "values": [
+                "hardware",
+                "doityourself"
+            ],
+            "group": "tools",
+            "color": "#a5b6d0"
+        },
+        {
+            "id": "police",
+            "name": "Comisaría",
+            "keys": [
+                "amenity"
+            ],
+            "values": [
+                "police"
+            ],
+            "group": "combat",
+            "color": "#df7d76"
+        },
+        {
+            "id": "fuel",
+            "name": "Gasolinera",
+            "keys": [
+                "amenity"
+            ],
+            "values": [
+                "fuel"
+            ],
+            "group": "fuel",
+            "color": "#d4a466"
+        },
+        {
+            "id": "workshop",
+            "name": "Taller",
+            "keys": [
+                "shop"
+            ],
+            "values": [
+                "car_repair"
+            ],
+            "group": "tools",
+            "color": "#a4b2cd"
+        },
+        {
+            "id": "warehouse",
+            "name": "Almacén",
+            "keys": [
+                "building"
+            ],
+            "values": [
+                "warehouse"
+            ],
+            "group": "materials",
+            "color": "#a7b6a3"
+        },
+        {
+            "id": "restaurant",
+            "name": "Restauración",
+            "keys": [
+                "amenity"
+            ],
+            "values": [
+                "restaurant",
+                "cafe"
+            ],
+            "group": "food",
+            "color": "#ccaa7a"
+        },
+        {
+            "id": "industry",
+            "name": "Industria",
+            "keys": [
+                "landuse",
+                "building"
+            ],
+            "values": [
+                "industrial"
+            ],
+            "group": "materials",
+            "color": "#a5a8ad"
+        },
+        {
+            "id": "forest",
+            "name": "Bosque",
+            "keys": [
+                "landuse",
+                "natural"
+            ],
+            "values": [
+                "forest",
+                "wood"
+            ],
+            "group": "nature",
+            "color": "#81b38a"
+        },
+        {
+            "id": "farmland",
+            "name": "Campo agrícola",
+            "keys": [
+                "landuse"
+            ],
+            "values": [
+                "farmland"
+            ],
+            "group": "nature",
+            "color": "#b7b878"
+        },
+        {
+            "id": "residential",
+            "name": "Zona residencial",
+            "keys": [
+                "landuse"
+            ],
+            "values": [
+                "residential"
+            ],
+            "group": "equipment",
+            "color": "#b9b3a9"
+        },
+        {
+            "id": "park",
+            "name": "Parque",
+            "keys": [
+                "leisure"
+            ],
+            "values": [
+                "park"
+            ],
+            "group": "nature",
+            "color": "#99c99f"
+        },
+        {
+            "id": "water",
+            "name": "Agua natural",
+            "keys": [
+                "natural",
+                "waterway"
+            ],
+            "values": [
+                "water",
+                "*"
+            ],
+            "group": "nature",
+            "color": "#7cb8d6"
+        }
+    ]
+}

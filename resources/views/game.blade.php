@@ -1,0 +1,1 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#101713"><title>Última señal · Donostia</title>@viteReactRefresh @vite('resources/js/app.tsx')</head><body><div id="root"></div></body></html>

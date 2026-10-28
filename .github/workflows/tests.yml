@@ -1,0 +1,16 @@
+name: Prototype checks
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: bash scripts/setup.sh
+      - run: docker compose exec -T app php artisan test --compact
+      - run: bash scripts/test-concurrency.sh
+      - run: npx playwright install --with-deps chromium
+      - run: PLAYWRIGHT_CHROMIUM_EXECUTABLE=$(find "$HOME/.cache/ms-playwright" -path '*/chrome-linux64/chrome' -type f | head -1) npm run test:e2e
